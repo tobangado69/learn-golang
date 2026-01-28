@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -48,4 +49,7 @@ func main() {
 	kalimat4 := panjangPersegiPanjang + lebarPersegiPanjang + alasSegitiga + tinggiSegitiga
 
 	fmt.Println(kalimat4)
+
+	var index1 = strings.Index("ethan hunt", "ha")
+	fmt.Println(index1) // 2
 }
